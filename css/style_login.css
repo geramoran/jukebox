@@ -1,0 +1,25 @@
+.contenido{
+	margin:0.5em auto;
+	display: table;
+	vertical-align: central;
+	margin-top: 15%;
+	max-width: 85%;
+}
+
+.contenido input{
+	display: block;
+	width:380px;
+    height:27px;
+    font-size:15px;
+    color:#8080C0;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenido #iniciar {
+	width: 404px;
+	height: 44px;
+	padding: 0px;
+	margin: 4px;
+	margin-top:30px;
+}

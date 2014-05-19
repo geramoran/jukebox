@@ -1,0 +1,123 @@
+#tab-box {
+    padding-top: 50px;
+    font-size: 0;
+    margin:0.5em auto;
+    width: 80%;
+    position: relative;
+}
+
+.tab {
+    display: inline-block;
+    color: #24628b;
+}
+
+.tab:first-of-type {
+    margin-left: 0;
+}
+
+.tab span:first-of-type a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #c4d0de;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    background-color: #173668;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tab span:first-of-type a:hover {
+    background: #582929;
+    color: #434878;
+}
+
+.tab:target span:first-of-type a {
+    background: #5FD6EF;
+    padding: 16px 20px 15px 20px;
+    color: #1a2c45;
+}
+
+.tab:target span {
+    z-index: 1;
+}
+
+.tab span:nth-of-type(2) {
+    display: block;
+    font-size: 14px;
+    padding: 20px;
+    color: #000000;
+    line-height: 18px;
+    width: 90%;
+    height: 350px;
+    max-height: 500%;
+    background: #5FFAF5;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#gen {
+    display: block;
+    position: relative;
+}
+
+#lad1{
+    display: table-row;
+}
+
+#izq1, #der1 {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#izq1 {
+    float: left;
+}
+
+#der1{
+    float: right;
+}
+
+#izq1 input, #izq1 textarea {
+    font-family: Arial,Helvetica,sans-serif;
+    width:380px;
+    height:27px;
+    font-size:15px;
+    color:#8080C0;
+}
+
+#izq1 textarea {
+    height:150px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+#izq1 input{
+    padding-left: 10px;
+}
+
+#vistaPrevia{
+    max-height: 189px;
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+
+#ab input{
+    font-family: Arial;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #1F0FE6;
+    font-weight: bolder;
+    color: #80FFFF;
+    margin-top: 20px;
+    margin-left: 10px;
+}
